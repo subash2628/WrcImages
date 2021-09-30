@@ -1,0 +1,101 @@
+/* body {
+    background-color: rgb(234, 236, 236);
+  }
+  h1 {
+    color: blue;
+  }
+  p {
+    color: blue;
+  }
+
+  #body{
+    display:flex;
+    flex-direction:column;
+    height: 98vh;
+    background-color: #f1f1f1;
+  }
+
+  #header{
+    flex-grow:0.1;
+    background-color:rgba(98, 187, 202, 0.87);
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #header>form{
+    padding: 5vw 30vw;
+  } */
+
+
+  #main{
+    background-color:white;
+    padding: 10vw 20vw;
+  }
+
+  /* #main>p{
+      background-color: tomato;
+      height: fit-content;
+  } */
+
+  #footer{
+    flex-grow:0.1;
+    background-color:rgb(179, 179, 160);
+    text-align: center;
+  }
+
+  #mySearch>input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    
+    background-position: 3px 1px; 
+    background-repeat: no-repeat;
+    padding: 6px 20px 6px 40px;
+  }
+
+  #requestAddForm>input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 3px 4px; 
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 5px;
+  }
+
+  /* #mySearch{
+    flex-grow: 0.9;
+  } */
+
+  #requestAdd{
+      background-color: white;
+      /*flex-grow: 0.1;*/
+      text-align:end;
+      padding: 1vw 2vw;
+  }
+
+  /* #requestAdd>button{
+      border: none;
+      background-color: white;
+      cursor: pointer;
+  } */
+
+  #quoteOfDay{
+    color: white;
+    font-style: italic;
+  }
+
+  #searchLinks{
+    font-size: 1rem;
+    background-color: brown;
+  }
+
+  #searchLinksTxt{
+    color:blue ;
+  }
